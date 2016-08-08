@@ -82,12 +82,18 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         List<Recycler_item> items = new ArrayList<>();
-        Recycler_item[] item = new Recycler_item[5];
+        Recycler_item[] item = new Recycler_item[10];
         item[0] = new Recycler_item(R.drawable.starbucks_1,"#1");
         item[1] = new Recycler_item(R.drawable.starbucks_2,"#2");
         item[2] = new Recycler_item(R.drawable.starbucks_3,"#3");
         item[3] = new Recycler_item(R.drawable.starbucks_4,"#4");
         item[4] = new Recycler_item(R.drawable.twosome_1,"#5");
+        item[5] = new Recycler_item(R.drawable.twosome_2,"#6");
+        item[6] = new Recycler_item(R.drawable.twosome_3,"#7");
+        item[7] = new Recycler_item(R.drawable.twosome_4,"#8");
+        item[8] = new Recycler_item(R.drawable.coffeebean_1,"#9");
+        item[9] = new Recycler_item(R.drawable.coffeebean_2,"#10");
+
 
         /*LinearLayout detail_button = (LinearLayout) findViewById(R.id.image_click);
         detail_button.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         });*/
 
 
-        for(int i=0;i<5;i++) items.add(item[i]);
+        for(int i=0;i<10;i++) items.add(item[i]);
 
         recyclerView.setAdapter(new RecyclerAdapter(getApplicationContext(),items, R.layout.activity_main));
     }
