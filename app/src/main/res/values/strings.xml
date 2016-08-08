@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">또왕</string>
+    <string name="home_button">홈</string>
+    <string name="whole">전체매장</string>
+    <string name="event">이벤트</string>
+    <string name="setting">설정</string>
+    <string name="search">검색</string>
+    <string name="button1">매장1</string>
+    <string name="button2">매장2</string>
+    <string name="button3">매장3</string>
+    <string name="button4">매장4</string>
+    <string name="store_inf">매장정보</string>
+    <string name="location">위치 지도</string>
+    <string name="add">단골 등록</string>
+    <string name="map">지도</string>
+    <string name="info">가게 벽면은 사진이나 그림 등의 작품을 걸어 놓아 전시공간으로 꾸몄다.</string>
+    <string name="MENU">체리 푸딩 8,000원</string>
+</resources>
